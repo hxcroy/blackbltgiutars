@@ -99,6 +99,22 @@
             "@type": "Answer",
             "text": "אם הגיטרה שלכם מזמזמת רק באזורים מסוימים, או שישנם צלילים ש'נחנקים' בזמן מתיחת מיתר (Bend), רוב הסיכויים שישנם סריגים לא מפולסים. סטאפ לגיטרה מטפל בקימור הצוואר ובגובה הגשר, אך אם השריגים עצמם שחוקים או אכולים, יש לבצע יישור ושיוף שריגים מקצועי כדי להחזיר את הכלי לנוחות מקסימלית."
           }
+        },
+        {
+          "@type": "Question",
+          "name": "קניתי גיטרה חדשה מהחנות או גיטרה יד שנייה – האם חובה לעשות לה סטאפ?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "בהחלט כן. רוב הגיטרות מגיעות מהמפעל עם כיוון גנרי (ולעיתים קרובות עם מיתרים גבוהים מדי בגיטרה או אקשן לא מאוזן), ובנוסף שינויי האקלים והלחות בישראל משפיעים מיד על עץ הצוואר. אם רכשתם כלי חדש או שאתם מחפשים טכנאי גיטרות בנתניה והשרון לצורך בדיקת גיטרה יד שנייה לפני קנייה או יישור קו מלא – סטאפ לגיטרה חדשה הוא ההשקעה הכי משתלמת שתעשו. במעבדה בכפר יונה אני מבצע התאמה אישית מלאה לסגנון הנגינה שלכם, מוודא שהגיטרה שומרת על כיוון לאורך זמן ומוציא ממנה את המקסימום כבר מהאקורד הראשון."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "הגיטרה מזמזמת, לא שומרת על כיוון או שיש רעשים באלקטרוניקה – איזה טיפול היא צריכה?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "לכל תקלה יש שורש ברור, והאבחון במעבדה מתבצע בדיוק כירורגי. אם אתם סובלים מגיטרה מזמזמת או קושי בלחיצה, לרוב הורדת אקשן וכיוון קימור הצוואר יפתרו את הבעיה מיד. אם הגיטרה לא שומרת על כיוון, ייתכן שנדרשת הרחבת חריצים בנאט או בניית נאט עצם בהתאמה אישית (Custom Bone Nut). בנוסף, כטכנאי גיטרות מומלץ בעמק חפר והסביבה, אני מטפל בכל תקלות החשמל והמבנה: החל מתיקון שקע PL רופף ורעשים בפוטנציומטרים, דרך החלפת פיקאפים וחיווט מחדש, ועד תיקון ראש גיטרה שבור (Headstock) והדבקות מבניות מורכבות."
+          }
         }
       ]
     }
@@ -147,6 +163,9 @@
         .testimonials-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); gap: 20px; margin-top: 25px; }
         .testimonial-card { background-color: var(--card-bg); border: 1px solid #2a2a2a; padding: 20px; border-radius: 8px; font-style: italic; position: relative; }
         .testimonial-author { color: var(--primary-gold); font-weight: bold; font-style: normal; margin-top: 15px; display: block; font-size: 0.95rem; }
+        .google-reviews-btn-wrap { text-align: center; margin-top: 30px; }
+        .btn-google-reviews { display: inline-flex; align-items: center; gap: 8px; background-color: transparent; color: var(--primary-gold); border: 1px solid var(--primary-gold); padding: 10px 24px; border-radius: 50px; text-decoration: none; font-weight: 700; font-size: 0.95rem; transition: all 0.3s ease; }
+        .btn-google-reviews:hover { background-color: var(--primary-gold); color: #111; transform: translateY(-2px); box-shadow: 0 4px 15px rgba(204, 163, 85, 0.3); }
 
         /* עיצוב ווידאו אנכי */
         .video-container { max-width: 320px; margin: 0 auto; aspect-ratio: 9 / 16; border-radius: 12px; overflow: hidden; border: 2px solid var(--primary-gold); box-shadow: 0 8px 25px rgba(0,0,0,0.6); }
@@ -266,13 +285,16 @@
                 <span class="testimonial-author">— דניאל כ., קדימה צורן</span>
             </div>
         </div>
+        <div class="google-reviews-btn-wrap">
+            <a href="https://maps.app.goo.gl/SX79CEgztWnQdGk3A" target="_blank" rel="noopener noreferrer" class="btn-google-reviews">⭐ לצפייה בכל הביקורות המאומתות בגוגל</a>
+        </div>
     </section>
 
     <!-- אזור סרטון המעבדה -->
     <section id="workshop-video">
         <h2>הצצה אל מאחורי הקלעים</h2>
         <div class="video-container">
-            <iframe src="https://www.youtube.com/embed/ZC30InV65YA" title="Black Belt Guitars Workshop Video" loading="lazy" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            <iframe src="https://www.youtube-nocookie.com/embed/ZC30InV65YA" title="Black Belt Guitars Workshop Video" loading="lazy" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
         </div>
     </section>
 
@@ -322,6 +344,16 @@
             <div style="background-color: var(--card-bg); border: 1px solid #252525; padding: 20px; border-radius: 8px; margin-bottom: 15px;">
                 <h3 style="color: var(--primary-gold); font-size: 1.15rem; margin-bottom: 8px;">🔍 מתי הגיטרה צריכה שיוף שריגים (Fretwork) ומתי מספיק רק סטאפ לגיטרה?</h3>
                 <p style="color: var(--text-muted); font-size: 0.95rem;">אם הגיטרה שלכם מזמזמת רק באזורים מסוימים, או שישנם צלילים ש"נחנקים" בזמן מתיחת מיתר (Bend), רוב הסיכויים שישנם סריגים לא מפולסים. סטאפ לגיטרה מטפל בקימור הצוואר ובגובה הגשר, אך אם השריגים עצמם שחוקים או אכולים, יש לבצע יישור ושיוף שריגים מקצועי כדי להחזיר את הכלי לנוחות מקסימלית.</p>
+            </div>
+
+            <div style="background-color: var(--card-bg); border: 1px solid #252525; padding: 20px; border-radius: 8px; margin-bottom: 15px;">
+                <h3 style="color: var(--primary-gold); font-size: 1.15rem; margin-bottom: 8px;">🆕 קניתי גיטרה חדשה מהחנות או גיטרה יד שנייה – האם חובה לעשות לה סטאפ?</h3>
+                <p style="color: var(--text-muted); font-size: 0.95rem;">בהחלט כן. רוב הגיטרות מגיעות מהמפעל עם כיוון גנרי (ולעיתים קרובות עם מיתרים גבוהים מדי בגיטרה או אקשן לא מאוזן), ובנוסף שינויי האקלים והלחות בישראל משפיעים מיד על עץ הצוואר. אם רכשתם כלי חדש או שאתם מחפשים טכנאי גיטרות בנתניה והשרון לצורך בדיקת גיטרה יד שנייה לפני קנייה או יישור קו מלא – סטאפ לגיטרה חדשה הוא ההשקעה הכי משתלמת שתעשו. במעבדה בכפר יונה אני מבצע התאמה אישית מלאה לסגנון הנגינה שלכם, מוודא שהגיטרה שומרת על כיוון לאורך זמן ומוציא ממנה את המקסימום כבר מהאקורד הראשון.</p>
+            </div>
+
+            <div style="background-color: var(--card-bg); border: 1px solid #252525; padding: 20px; border-radius: 8px; margin-bottom: 15px;">
+                <h3 style="color: var(--primary-gold); font-size: 1.15rem; margin-bottom: 8px;">🔌 הגיטרה מזמזמת, לא שומרת על כיוון או שיש רעשים באלקטרוניקה – איזה טיפול היא צריכה?</h3>
+                <p style="color: var(--text-muted); font-size: 0.95rem;">לכל תקלה יש שורש ברור, והאבחון במעבדה מתבצע בדיוק כירורגי. אם אתם סובלים מגיטרה מזמזמת או קושי בלחיצה, לרוב הורדת אקשן וכיוון קימור הצוואר יפתרו את הבעיה מיד. אם הגיטרה לא שומרת על כיוון, ייתכן שנדרשת הרחבת חריצים בנאט או בניית נאט עצם בהתאמה אישית (Custom Bone Nut). בנוסף, כטכנאי גיטרות מומלץ בעמק חפר והסביבה, אני מטפל בכל תקלות החשמל והמבנה: החל מתיקון שקע PL רופף ורעשים בפוטנציומטרים, דרך החלפת פיקאפים וחיווט מחדש, ועד תיקון ראש גיטרה שבור (Headstock) והדבקות מבניות מורכבות.</p>
             </div>
 
         </div>
